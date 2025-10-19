@@ -1,5 +1,3 @@
-astronomers = []
-
 #-----------------------------------------------------------------------------
 # 🛸 SPACETIME 🧿
 import autograd.numpy as np
@@ -20,16 +18,12 @@ x = 1.0
 y = 1.0
 z = 1.0
 t = -1.0
-spacetime = print(((f_prime(x))^2)+((g_prime(y))^2)+((h_prime(z))^2)-()  
+spacetimetricsquare = print(((f_prime(x))^2)+((g_prime(y))^2)+((h_prime(z))^2)-((i_prime(t))^2)) 
 # 🌌 SPACETIME 🕋
 # ----------------------------------------------------------------------------
 
-earth = []
-moon = []
-solarsystems = []
-blackholes = []
-
+astronomers = []
 tools = [spacetime]
-objects = [blackholes, solarsystems]
+objects = [void, supergalaxyclusters]
 
-universe = [astronomers, objects, tools]
+universe = [astronomers, tools, objects]
