@@ -27,3 +27,4 @@ tools = [spacetime]
 objects = [void, supergalaxyclusters]
 
 universe = [astronomers, tools, objects]
+myworld = []
