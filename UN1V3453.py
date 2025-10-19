@@ -22,9 +22,10 @@ spacetimetricsquare = print(((f_prime(x))^2)+((g_prime(y))^2)+((h_prime(z))^2)-(
 # 🌌 SPACETIME 🕋
 # ----------------------------------------------------------------------------
 
-astronomers = []
+void = []
+
 tools = [spacetime]
 objects = [void, supergalaxyclusters]
 
-universe = [astronomers, tools, objects]
+universe = [tools, objects]
 myworld = []
