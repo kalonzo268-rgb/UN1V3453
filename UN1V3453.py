@@ -12,13 +12,15 @@ def h(z):
     return z
 def i(t):
     return t
-f_primex = grad(f)
-f_primey = grad(g)
-f_primez = grad(h)
-f_primet = grad(i)
+f_prime = grad(f)
+g_prime = grad(g)
+h_prime = grad(h)
+i_prime = grad(i)
 x = 1.0
-print(f_prime(x))  # Approx: 2 + cos(1)
-spacetime = []
+y = 1.0
+z = 1.0
+t = -1.0
+spacetime = print(((f_prime(x))^2)+((g_prime(y))^2)+((h_prime(z))^2)-()  
 # 🌌 SPACETIME 🕋
 # ----------------------------------------------------------------------------
 
